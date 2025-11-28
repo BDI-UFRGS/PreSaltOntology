@@ -1,0 +1,355 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/i742609/ontologies/2025/10/untitled-ontology-30/"
+     xml:base="http://www.semanticweb.org/i742609/ontologies/2025/10/untitled-ontology-30/"
+     xmlns:dc="http://purl.org/dc/elements/1.1/"
+     xmlns:obo="http://purl.obolibrary.org/obo/"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:foaf="http://xmlns.com/foaf/0.1/"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+     xmlns:terms="http://purl.org/dc/terms/"
+     xmlns:ontologies="https://www.inf.ufrgs.br/bdi/ontologies/">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/i742609/ontologies/2025/10/untitled-ontology-30">
+        <owl:imports rdf:resource="http://purl.obolibrary.org/obo/bfo/2019-08-26/bfo.owl"/>
+        <owl:imports rdf:resource="https://www.inf.ufrgs.br/bdi/ontologies/geocore/releases/2024-04-06/geocore-full.owl"/>
+        <owl:imports rdf:resource="https://www.inf.ufrgs.br/bdi/ontologies/geores/releases/2024-04-07/geores-full.owl"/>
+    </owl:Ontology>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/i742609/ontologies/2025/10/untitled-ontology-30#Albian -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/i742609/ontologies/2025/10/untitled-ontology-30#Albian">
+        <rdfs:subClassOf rdf:resource="https://www.inf.ufrgs.br/bdi/ontologies/GEOCORE_0000005"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/i742609/ontologies/2025/10/untitled-ontology-30#Aptian -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/i742609/ontologies/2025/10/untitled-ontology-30#Aptian">
+        <rdfs:subClassOf rdf:resource="https://www.inf.ufrgs.br/bdi/ontologies/GEOCORE_0000005"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/i742609/ontologies/2025/10/untitled-ontology-30#Barremian -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/i742609/ontologies/2025/10/untitled-ontology-30#Barremian">
+        <rdfs:subClassOf rdf:resource="https://www.inf.ufrgs.br/bdi/ontologies/GEOCORE_0000005"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/i742609/ontologies/2025/10/untitled-ontology-30#Cretaceous -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/i742609/ontologies/2025/10/untitled-ontology-30#Cretaceous">
+        <rdfs:subClassOf rdf:resource="https://www.inf.ufrgs.br/bdi/ontologies/GEOCORE_0000005"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/i742609/ontologies/2025/10/untitled-ontology-30#Early_Cretaceous -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/i742609/ontologies/2025/10/untitled-ontology-30#Early_Cretaceous">
+        <rdfs:subClassOf rdf:resource="https://www.inf.ufrgs.br/bdi/ontologies/GEOCORE_0000005"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/i742609/ontologies/2025/10/untitled-ontology-30#Hauterivian -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/i742609/ontologies/2025/10/untitled-ontology-30#Hauterivian">
+        <rdfs:subClassOf rdf:resource="https://www.inf.ufrgs.br/bdi/ontologies/GEOCORE_0000005"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/i742609/ontologies/2025/10/untitled-ontology-30#alkalinity -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/i742609/ontologies/2025/10/untitled-ontology-30#alkalinity">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000019"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/i742609/ontologies/2025/10/untitled-ontology-30#compaction -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/i742609/ontologies/2025/10/untitled-ontology-30#compaction">
+        <rdfs:subClassOf rdf:resource="https://www.inf.ufrgs.br/bdi/ontologies/GEOCORE_0000002"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/i742609/ontologies/2025/10/untitled-ontology-30#diagenesis -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/i742609/ontologies/2025/10/untitled-ontology-30#diagenesis">
+        <rdfs:subClassOf rdf:resource="https://www.inf.ufrgs.br/bdi/ontologies/GEOCORE_0000002"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/i742609/ontologies/2025/10/untitled-ontology-30#dissolution -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/i742609/ontologies/2025/10/untitled-ontology-30#dissolution">
+        <rdfs:subClassOf rdf:resource="https://www.inf.ufrgs.br/bdi/ontologies/GEOCORE_0000002"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/i742609/ontologies/2025/10/untitled-ontology-30#erosion -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/i742609/ontologies/2025/10/untitled-ontology-30#erosion">
+        <rdfs:subClassOf rdf:resource="https://www.inf.ufrgs.br/bdi/ontologies/GEOCORE_0000002"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/i742609/ontologies/2025/10/untitled-ontology-30#evaporation -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/i742609/ontologies/2025/10/untitled-ontology-30#evaporation">
+        <rdfs:subClassOf rdf:resource="https://www.inf.ufrgs.br/bdi/ontologies/GEOCORE_0000002"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/i742609/ontologies/2025/10/untitled-ontology-30#evaporite -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/i742609/ontologies/2025/10/untitled-ontology-30#evaporite">
+        <rdfs:subClassOf rdf:resource="https://www.inf.ufrgs.br/bdi/ontologies/GEORES_0000032"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/i742609/ontologies/2025/10/untitled-ontology-30#fault -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/i742609/ontologies/2025/10/untitled-ontology-30#fault">
+        <rdfs:subClassOf rdf:resource="https://www.inf.ufrgs.br/bdi/ontologies/GEOCORE_0000004"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/i742609/ontologies/2025/10/untitled-ontology-30#horst -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/i742609/ontologies/2025/10/untitled-ontology-30#horst">
+        <rdfs:subClassOf rdf:resource="https://www.inf.ufrgs.br/bdi/ontologies/GEOCORE_0000004"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/i742609/ontologies/2025/10/untitled-ontology-30#hydrocarbon -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/i742609/ontologies/2025/10/untitled-ontology-30#hydrocarbon">
+        <rdfs:subClassOf rdf:resource="https://www.inf.ufrgs.br/bdi/ontologies/GEOCORE_0000009"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/i742609/ontologies/2025/10/untitled-ontology-30#lithofacies -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/i742609/ontologies/2025/10/untitled-ontology-30#lithofacies">
+        <rdfs:subClassOf rdf:resource="https://www.inf.ufrgs.br/bdi/ontologies/GEORES_0000029"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/i742609/ontologies/2025/10/untitled-ontology-30#microbialite -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/i742609/ontologies/2025/10/untitled-ontology-30#microbialite">
+        <rdfs:subClassOf rdf:resource="https://www.inf.ufrgs.br/bdi/ontologies/GEORES_0000032"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/i742609/ontologies/2025/10/untitled-ontology-30#normal_fault -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/i742609/ontologies/2025/10/untitled-ontology-30#normal_fault">
+        <rdfs:subClassOf rdf:resource="https://www.inf.ufrgs.br/bdi/ontologies/GEOCORE_0000004"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/i742609/ontologies/2025/10/untitled-ontology-30#onlap -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/i742609/ontologies/2025/10/untitled-ontology-30#onlap">
+        <rdfs:subClassOf rdf:resource="https://www.inf.ufrgs.br/bdi/ontologies/GEOCORE_0000012"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/i742609/ontologies/2025/10/untitled-ontology-30#organic_matter -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/i742609/ontologies/2025/10/untitled-ontology-30#organic_matter">
+        <rdfs:subClassOf rdf:resource="https://www.inf.ufrgs.br/bdi/ontologies/GEOCORE_0000006"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/i742609/ontologies/2025/10/untitled-ontology-30#permeability -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/i742609/ontologies/2025/10/untitled-ontology-30#permeability">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000019"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/i742609/ontologies/2025/10/untitled-ontology-30#porosity -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/i742609/ontologies/2025/10/untitled-ontology-30#porosity">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000019"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/i742609/ontologies/2025/10/untitled-ontology-30#reservoir_quality -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/i742609/ontologies/2025/10/untitled-ontology-30#reservoir_quality">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000019"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/i742609/ontologies/2025/10/untitled-ontology-30#seismic_attribute -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/i742609/ontologies/2025/10/untitled-ontology-30#seismic_attribute">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000031"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/i742609/ontologies/2025/10/untitled-ontology-30#seismic_data -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/i742609/ontologies/2025/10/untitled-ontology-30#seismic_data">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000031"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/i742609/ontologies/2025/10/untitled-ontology-30#seismic_facies -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/i742609/ontologies/2025/10/untitled-ontology-30#seismic_facies">
+        <rdfs:subClassOf rdf:resource="https://www.inf.ufrgs.br/bdi/ontologies/GEORES_0000028"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/i742609/ontologies/2025/10/untitled-ontology-30#shale -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/i742609/ontologies/2025/10/untitled-ontology-30#shale">
+        <rdfs:subClassOf rdf:resource="https://www.inf.ufrgs.br/bdi/ontologies/GEORES_0000032"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/i742609/ontologies/2025/10/untitled-ontology-30#silicification -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/i742609/ontologies/2025/10/untitled-ontology-30#silicification">
+        <rdfs:subClassOf rdf:resource="https://www.inf.ufrgs.br/bdi/ontologies/GEOCORE_0000002"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/i742609/ontologies/2025/10/untitled-ontology-30#source_rock -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/i742609/ontologies/2025/10/untitled-ontology-30#source_rock">
+        <rdfs:subClassOf rdf:resource="https://www.inf.ufrgs.br/bdi/ontologies/GEORES_0000032"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/i742609/ontologies/2025/10/untitled-ontology-30#structural_high -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/i742609/ontologies/2025/10/untitled-ontology-30#structural_high">
+        <rdfs:subClassOf rdf:resource="https://www.inf.ufrgs.br/bdi/ontologies/GEOCORE_0000004"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/i742609/ontologies/2025/10/untitled-ontology-30#subsidence -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/i742609/ontologies/2025/10/untitled-ontology-30#subsidence">
+        <rdfs:subClassOf rdf:resource="https://www.inf.ufrgs.br/bdi/ontologies/GEOCORE_0000002"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/i742609/ontologies/2025/10/untitled-ontology-30#substrate -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/i742609/ontologies/2025/10/untitled-ontology-30#substrate">
+        <rdfs:subClassOf rdf:resource="https://www.inf.ufrgs.br/bdi/ontologies/GEOCORE_0000001"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/i742609/ontologies/2025/10/untitled-ontology-30#unconformity -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/i742609/ontologies/2025/10/untitled-ontology-30#unconformity">
+        <rdfs:subClassOf rdf:resource="https://www.inf.ufrgs.br/bdi/ontologies/GEOCORE_0000011"/>
+    </owl:Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/i742609/ontologies/2025/10/untitled-ontology-30#Albian -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/i742609/ontologies/2025/10/untitled-ontology-30#Albian"/>
+    
+
+
+    <!-- http://www.semanticweb.org/i742609/ontologies/2025/10/untitled-ontology-30#Aptian -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/i742609/ontologies/2025/10/untitled-ontology-30#Aptian"/>
+    
+
+
+    <!-- http://www.semanticweb.org/i742609/ontologies/2025/10/untitled-ontology-30#Barremian -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/i742609/ontologies/2025/10/untitled-ontology-30#Barremian"/>
+    
+
+
+    <!-- http://www.semanticweb.org/i742609/ontologies/2025/10/untitled-ontology-30#Cretaceous -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/i742609/ontologies/2025/10/untitled-ontology-30#Cretaceous"/>
+    
+
+
+    <!-- http://www.semanticweb.org/i742609/ontologies/2025/10/untitled-ontology-30#Early_Cretaceous -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/i742609/ontologies/2025/10/untitled-ontology-30#Early_Cretaceous"/>
+    
+
+
+    <!-- http://www.semanticweb.org/i742609/ontologies/2025/10/untitled-ontology-30#Hauterivian -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/i742609/ontologies/2025/10/untitled-ontology-30#Hauterivian"/>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.29.2024-05-13T12:11:03Z) https://github.com/owlcs/owlapi -->
+
